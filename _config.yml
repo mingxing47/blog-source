@@ -4,9 +4,9 @@
 
 # Site
 title: Ming's Blog
-subtitle:
+subtitle: 精进
 description: 有趣是这个世界上最高贵的品质
-keywords:
+keywords: Java
 author: Simon Ming
 language: zh-Hans
 timezone: Asia/Shanghai
@@ -54,7 +54,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category:
+default_category: uncategorized
 category_map:
 tag_map:
 
