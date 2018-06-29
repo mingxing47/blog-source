@@ -8,7 +8,7 @@ subtitle: 精进
 description: 有趣是这个世界上最高贵的品质
 keywords: Java
 author: Simon Ming
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -81,5 +81,5 @@ deploy:
   type: git
   repository: # 可选择同时部署到 GitHub 和 coding 或者只部署到 Github
     github: https://github.com/mingxing47/mingxing47.github.io.git
-   # coding: git@git.coding.net:你的Coding名/你的Coding名.git
+    coding: https://git.coding.net/mingxing47/mingxing47.git
   branch: master
