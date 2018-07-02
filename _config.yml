@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.simonming.com
+url: https://www.simonming.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -83,3 +83,9 @@ deploy:
     github: https://github.com/mingxing47/mingxing47.github.io.git
     coding: https://git.coding.net/mingxing47/mingxing47.git
   branch: master
+
+# 自动生成sitemap
+sitemap: 
+  path: sitemap.xml
+baidusitemap: 
+  path: baidusitemap.xml
