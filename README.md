@@ -13,3 +13,5 @@ my blog source code
 1. `git add .`；
 2. `git commit -m "update"`；
 3. `git push origing master`
+## 其他
+主题文件夹里 `_config.yml` 配置文件里，因为评论接口 id 等有隐私性，故没有上传到 `github`，拉取源码下来之后需要把 `_config.yml.bak` 修改为 `_config.yml`，然后再配置相应的内容。
