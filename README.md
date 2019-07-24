@@ -2,8 +2,9 @@
 my blog source code
 ## 博客源码拉取
 1. 在本地欲拉取源码的位置 `git clone https://github.com/mingxing47/blog-source.git` 拉取源码；
-2. 源码拉取之后 `cd themes`, 然后拉取主题源码 `git clone https://github.com/mingxing47/blog-next-source.git`；
-3. 到博客主目录下，更新 `npm` 包，`npm install`；
+2. 到博客主目录下，更新 `npm` 包，`npm install`(若没有安装 Node.js 则需要先安装)；
+3. 若没有安装 `hexo`，则用这个命令安装 `npm install -g hexo-cli`;
+4. 使用 `hexo -v` 测试 hexo 是否安装成功；
 ## 写文章
 1. 可以先写草稿 `hexo new draft <filename>`；
 2. 然后发布草稿 `hexo p <filename>`；
