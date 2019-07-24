@@ -8,25 +8,15 @@ public/
 package-lock.json
 
 # ignore theme
-themes/blog-next-source/.DS_Store
-themes/blog-next-source/_config.yml
-themes/blog-next-source/.idea/
-themes/blog-next-source/*.log
-themes/blog-next-source/*.iml
-themes/blog-next-source/yarn.lock
-themes/blog-next-source/package-lock.json
-themes/blog-next-source/node_modules/
-themes/blog-next-source/
+# Ignore optional external libraries
+themes/next/source/lib/*
 
-# Ignore unused verdors' files
-themes/blog-next-source/source/lib/fancybox/*
-!themes/blog-next-source/source/lib/fancybox/source/
-themes/blog-next-source/
-themes/blog-next-source/source/lib/font-awesome/less/
-themes/blog-next-source/source/lib/font-awesome/scss/
-themes/blog-next-source/
-themes/blog-next-source/source/lib/ua-parser-js/*
-!themes/blog-next-source/source/lib/ua-parser-js/dist/
-themes/blog-next-source/
-themes/blog-next-source/source/lib/Han/*
-!themes/blog-next-source/source/lib/Han/dist/
+# Track internal libraries & Ignore unused verdors files
+themes/next/source/lib/font-awesome/less/
+themes/next/source/lib/font-awesome/scss/
+!themes/next/source/lib/font-awesome/
+themes/next/_config.yml
+
+!themes/next/source/lib/jquery/
+
+!themes/next/source/lib/velocity/
