@@ -82,7 +82,6 @@ deploy:
   type: git
   repository: # 可选择同时部署到 GitHub 和 coding 或者只部署到 Github
     github: https://github.com/mingxing47/mingxing47.github.io.git
-    coding: https://git.coding.net/mingxing47/mingxing47.git
   branch: master
 
 # 自动生成sitemap
