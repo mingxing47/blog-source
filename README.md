@@ -1,5 +1,5 @@
 # blog-source
-my blog source code
+博客搭建源码
 ## 博客源码拉取
 1. 在本地欲拉取源码的位置 `git clone https://github.com/mingxing47/blog-source.git` 拉取源码；
 2. 到博客主目录下，更新 `npm` 包，`npm install`(若没有安装 Node.js 则需要先安装)；
@@ -17,3 +17,5 @@ my blog source code
 ## 其他
 主题文件夹里 `_config.yml` 配置文件里，因为评论接口 id 等有隐私性，故没有上传到 `github`，拉取源码下来之后需要把 `_config.yml.bak` 修改为 `_config.yml`，然后再配置相应的内容。
 同时，复制主题文件夹的 `_config.yml.bak` 到博客源码 `source/_data` 的 `next.yml` 中
+## 主题更新
+进入主题文件夹内，`git pull` 更新主题文件呢绒即可
