@@ -16,3 +16,4 @@ my blog source code
 3. `git push origin master`
 ## 其他
 主题文件夹里 `_config.yml` 配置文件里，因为评论接口 id 等有隐私性，故没有上传到 `github`，拉取源码下来之后需要把 `_config.yml.bak` 修改为 `_config.yml`，然后再配置相应的内容。
+同时，复制主题文件夹的 `_config.yml.bak` 到博客源码 `source/_data` 的 `next.yml` 中
