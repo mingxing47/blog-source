@@ -19,3 +19,9 @@
 同时，复制主题文件夹的 `_config.yml.bak` 到博客源码 `source/_data` 的 `next.yml` 中
 ## 主题更新
 进入主题文件夹内，`git pull` 更新主题文件呢绒即可
+## 加入的 html 不想被 hexo 框架重构
+只需要在 html 中第一行处加入如下内容即可
+```
+layout: false
+---
+```
