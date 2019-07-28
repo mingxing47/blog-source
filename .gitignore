@@ -7,6 +7,7 @@ public/
 .deploy*/
 package-lock.json
 source/_data/next.yml
+.vscode
 
 # ignore theme
 # Ignore optional external libraries
