@@ -1,8 +1,12 @@
 ---
 title: 后端技术栈学习路线
-tags: [方法论, 技术路线]
+tags:
+  - 方法论
+  - 技术路线
 categories: 技术总结
+date: 2020-06-14 00:01:33
 ---
+
 
 ![](/source/images/panda.jpeg)
 
